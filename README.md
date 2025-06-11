@@ -26,6 +26,3 @@ A simple web application and RESTful API built using **Django** that allows clie
 - 💅 HTML + Bootstrap (for frontend)
 
 ---
-
-## 📁 Project Structure
-
