@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fitness Studio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">🏋️ Fitness Studio</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/html/classes">View Classes</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="/html/book">Book a Class</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="/html/bookings">My Bookings</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+    {% block content %}
+    <div class="hero">
+        <h1 class="text-center">Welcome to the Fitness Studio</h1>
+        <p class="text-center lead"><b>Get started by booking a class!</b></p>
+        <p class="text-center">Discover a variety of fitness classes, expert trainers, and state-of-the-art equipment to help you achieve your fitness goals.</p>
+        <p class="text-center">Whether you're a beginner or a seasoned athlete, we have something for everyone. Join our fitness community today and start your journey to a healthier, happier you!</p>
+        <div class="text-center mt-4">
+        <a href="/html/classes" class="btn btn-primary btn-lg">Get Started</a>
+        </div>
+    </div>
+    {% endblock %}
+    </div>
+</body>
+</html>
